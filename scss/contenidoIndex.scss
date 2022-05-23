@@ -1,40 +1,43 @@
-*{
-	font-family: 'Plus Jakarta Sans', sans-serif;
-}
+@media screen and (min-width: 1200px){
+	*{
+		font-family: 'Plus Jakarta Sans', sans-serif;
+	}
 
-.body{
-	overflow-x:hidden;
-}
+	.body{
+		overflow-x:hidden;
+	}
 
-/* base pagina*/
-.logo{
-	width:150px;
-	margin-left:140px;
-}
+	/* base pagina*/
+	.logo{
+		width:150px;
+		margin-left:140px;
+	}
 
 
-.barra{
-	margin-top: 40px;
-	padding-right: 150px;
-	
-}
+	.barra{
+		margin-top: 40px;
+		padding-right: 150px;
+		
+	}
 
-.footer{
-	margin-top:200px;
-	margin-left: 650px;
-}
+	.footer{
+		margin-top:200px;
+		margin-left: 650px;
+	}
 
-.titulo{
-	margin-top:40px;
-}
+	.titulo{
+		margin-top:40px;
+	}
 
-/*fin base pagina*/
+	/*fin base pagina*/
 
-.calesita{
-	width: 750px;
-}
+	.calesita{
+		width: 650px;
+	}
 
-.textoPresentacion{
-	margin-top:110px;
+	.textoPresentacion{
+		margin-top:110px;
+		padding-left: 20px;
+	}
 }
 

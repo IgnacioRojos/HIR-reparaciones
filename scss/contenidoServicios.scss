@@ -1,64 +1,65 @@
+@media screen and (min-width: 1200px){
+
+	/* base pagina*/
+	.logo1{
+		width:150px;
+		margin-left:140px;
+	}
 
 
-/* base pagina*/
-.logo1{
-	width:150px;
-	margin-left:140px;
-}
+	.barra1{
+		margin-top: 40px;
+		padding-right: 150px;
+		
+	}
 
+	.footer1{
+		margin-top:200px;
+		margin-left: 650px;
+	}
 
-.barra1{
-	margin-top: 40px;
-	padding-right: 150px;
-	
-}
+	.titulo1{
+		margin-top:40px;
+	}
 
-.footer1{
-	margin-top:200px;
-	margin-left: 650px;
-}
+	/*fin base pagina*/
 
-.titulo1{
-	margin-top:40px;
-}
+	.cambioPantalla{
+		width: 440px;
 
-/*fin base pagina*/
+	}
 
-.cambioPantalla{
-	width: 440px;
+	.reparacionMother{
+		width: 450px;
+		margin-left: 480px;
+	}
 
-}
+	.cambioPiezas{
+		width: 570px;
+	}
+	.teclado{
+		margin-left: 480px;
+		width: 445px;
+	}
 
-.reparacionMother{
-	width: 450px;
-	margin-left: 480px;
-}
+	.Software{
+		width: 280px;
+		margin-left: 150px;
+		margin-bottom: 10px;
+	}
 
-.cambioPiezas{
-	width: 570px;
-}
-.teclado{
-	margin-left: 480px;
-	width: 445px;
-}
+	.fila{
+		margin-top: 10px;
+	}
 
-.Software{
-	width: 280px;
-	margin-left: 150px;
-	margin-bottom: 10px;
-}
+	.oracion{
+		font-size: 35px;
+		font-style: italic;
+		color: darkred;
+	}
 
-.fila{
-	margin-top: 10px;
-}
-
-.oracion{
-	font-size: 35px;
-	font-style: italic;
-	color: darkred;
-}
-
-.consulta{
-	text-align: center;
-	margin-top: 10px;
+	.consulta{
+		text-align: center;
+		margin-top: 10px;
+	}
 }

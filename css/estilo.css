@@ -1,31 +1,26 @@
-* {
-  font-family: 'Plus Jakarta Sans', sans-serif; }
-
-.body {
-  overflow-x: hidden; }
-
-/* base pagina*/
-.logo {
-  width: 150px;
-  margin-left: 140px; }
-
-.barra {
-  margin-top: 40px;
-  padding-right: 150px; }
-
-.footer {
-  margin-top: 200px;
-  margin-left: 650px; }
-
-.titulo {
-  margin-top: 40px; }
-
-/*fin base pagina*/
-.calesita {
-  width: 750px; }
-
-.textoPresentacion {
-  margin-top: 110px; }
+@media screen and (min-width: 1200px) {
+  * {
+    font-family: 'Plus Jakarta Sans', sans-serif; }
+  .body {
+    overflow-x: hidden; }
+  /* base pagina*/
+  .logo {
+    width: 150px;
+    margin-left: 140px; }
+  .barra {
+    margin-top: 40px;
+    padding-right: 150px; }
+  .footer {
+    margin-top: 200px;
+    margin-left: 650px; }
+  .titulo {
+    margin-top: 40px; }
+  /*fin base pagina*/
+  .calesita {
+    width: 650px; }
+  .textoPresentacion {
+    margin-top: 110px;
+    padding-left: 20px; } }
 
 @media only screen and (max-width: 768px) {
   .logo {
@@ -55,78 +50,64 @@
   .html {
     overflow-x: hidden; } }
 
-/* base pagina*/
-.logo2 {
-  width: 150px;
-  margin-left: 140px; }
+@media screen and (min-width: 1200px) {
+  /* base pagina*/
+  .logo2 {
+    width: 150px;
+    margin-left: 140px; }
+  .barra2 {
+    margin-top: 40px;
+    padding-right: 150px; }
+  .footer2 {
+    margin-top: 200px;
+    margin-left: 650px; }
+  .titulo2 {
+    margin-top: 40px; }
+  /*fin base pagina*/
+  .textoIntroduccion {
+    text-align: center;
+    margin-top: 150px; }
+  .fotoDecoracion {
+    width: 550px;
+    margin-left: 650px; } }
 
-.barra2 {
-  margin-top: 40px;
-  padding-right: 150px; }
-
-.footer2 {
-  margin-top: 200px;
-  margin-left: 650px; }
-
-.titulo2 {
-  margin-top: 40px; }
-
-/*fin base pagina*/
-.textoIntroduccion {
-  text-align: center;
-  margin-top: 150px; }
-
-.fotoDecoracion {
-  width: 550px;
-  margin-left: 650px; }
-
-/* base pagina*/
-.logo1 {
-  width: 150px;
-  margin-left: 140px; }
-
-.barra1 {
-  margin-top: 40px;
-  padding-right: 150px; }
-
-.footer1 {
-  margin-top: 200px;
-  margin-left: 650px; }
-
-.titulo1 {
-  margin-top: 40px; }
-
-/*fin base pagina*/
-.cambioPantalla {
-  width: 440px; }
-
-.reparacionMother {
-  width: 450px;
-  margin-left: 480px; }
-
-.cambioPiezas {
-  width: 570px; }
-
-.teclado {
-  margin-left: 480px;
-  width: 445px; }
-
-.Software {
-  width: 280px;
-  margin-left: 150px;
-  margin-bottom: 10px; }
-
-.fila {
-  margin-top: 10px; }
-
-.oracion {
-  font-size: 35px;
-  font-style: italic;
-  color: darkred; }
-
-.consulta {
-  text-align: center;
-  margin-top: 10px; }
+@media screen and (min-width: 1200px) {
+  /* base pagina*/
+  .logo1 {
+    width: 150px;
+    margin-left: 140px; }
+  .barra1 {
+    margin-top: 40px;
+    padding-right: 150px; }
+  .footer1 {
+    margin-top: 200px;
+    margin-left: 650px; }
+  .titulo1 {
+    margin-top: 40px; }
+  /*fin base pagina*/
+  .cambioPantalla {
+    width: 440px; }
+  .reparacionMother {
+    width: 450px;
+    margin-left: 480px; }
+  .cambioPiezas {
+    width: 570px; }
+  .teclado {
+    margin-left: 480px;
+    width: 445px; }
+  .Software {
+    width: 280px;
+    margin-left: 150px;
+    margin-bottom: 10px; }
+  .fila {
+    margin-top: 10px; }
+  .oracion {
+    font-size: 35px;
+    font-style: italic;
+    color: darkred; }
+  .consulta {
+    text-align: center;
+    margin-top: 10px; } }
 
 @media only screen and (max-width: 768px) {
   .logo2 {
@@ -200,32 +181,31 @@
   .tituloBanner {
     font-size: 29px; } }
 
-/* base pagina*/
-.logo3 {
-  width: 150px;
-  margin-left: 140px; }
-
-.body {
-  overflow-x: hidden; }
-
-.barra3 {
-  margin-top: 40px;
-  padding-right: 150px; }
-
-.footer3 {
-  margin-top: 200px;
-  margin-left: 650px; }
-
-.titulo3 {
-  margin-top: 40px; }
-
-/*fin base pagina*/
-.card {
-  margin-top: 40px;
-  margin-bottom: 40px; }
-
-.mapa {
-  margin-left: 500px; }
+@media screen and (min-width: 1200px) {
+  /* base pagina*/
+  .logo3 {
+    width: 150px;
+    margin-left: 140px; }
+  .body {
+    overflow-x: hidden; }
+  .barra3 {
+    margin-top: 40px;
+    padding-right: 150px; }
+  .footer3 {
+    margin-top: 200px;
+    margin-left: 650px; }
+  .titulo3 {
+    margin-top: 40px; }
+  /*fin base pagina*/
+  .card {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px; }
+  .principio {
+    margin-top: 50px;
+    padding-left: 50px; }
+  .mapa {
+    margin-left: 500px; } }
 
 @media only screen and (max-width: 768px) {
   /* base pagina*/
