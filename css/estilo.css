@@ -12,12 +12,12 @@
     padding-right: 150px; }
   .footer {
     margin-top: 200px;
-    margin-left: 650px; }
+    margin-left: 550px; }
   .titulo {
     margin-top: 40px; }
   /*fin base pagina*/
   .calesita {
-    width: 650px; }
+    width: 550px; }
   .textoPresentacion {
     margin-top: 110px;
     padding-left: 20px; } }
@@ -60,7 +60,7 @@
     padding-right: 150px; }
   .footer2 {
     margin-top: 200px;
-    margin-left: 650px; }
+    margin-left: 550px; }
   .titulo2 {
     margin-top: 40px; }
   /*fin base pagina*/
@@ -69,7 +69,9 @@
     margin-top: 150px; }
   .fotoDecoracion {
     width: 550px;
-    margin-left: 650px; } }
+    margin-left: 450px; }
+  .texto1 {
+    margin-top: 20px; } }
 
 @media screen and (min-width: 1200px) {
   /* base pagina*/
@@ -81,7 +83,7 @@
     padding-right: 150px; }
   .footer1 {
     margin-top: 200px;
-    margin-left: 650px; }
+    margin-left: 550px; }
   .titulo1 {
     margin-top: 40px; }
   /*fin base pagina*/
@@ -89,11 +91,11 @@
     width: 440px; }
   .reparacionMother {
     width: 450px;
-    margin-left: 480px; }
+    margin-left: 180px; }
   .cambioPiezas {
     width: 570px; }
   .teclado {
-    margin-left: 480px;
+    margin-left: 180px;
     width: 445px; }
   .Software {
     width: 280px;
@@ -193,7 +195,7 @@
     padding-right: 150px; }
   .footer3 {
     margin-top: 200px;
-    margin-left: 650px; }
+    margin-left: 550px; }
   .titulo3 {
     margin-top: 40px; }
   /*fin base pagina*/
