@@ -2,7 +2,7 @@
 
 Página estática informativa para **HIR Reparaciones**, emprendimiento especializado en la reparación de **notebooks y PC**.
 
-![HIR Reparaciones](https://i.imgur.com/vf84dVG.png)
+
 
 ## 🚀 Sobre el proyecto
 
@@ -34,8 +34,7 @@ Próximamente online en **Netlify**.
 ## 📞 Contacto
 
 ✉️ **hirreparaciones@gmail.com**  
-📱 **+54 9 11 XXX XXXX** (WhatsApp disponible)  
-📍 Zona: [Tu ubicación]
+
 
 ## 🤝 Contribuciones
 
