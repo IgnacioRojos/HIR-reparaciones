@@ -1,236 +1,207 @@
-@media screen and (min-width: 1200px) {
-  * {
-    font-family: 'Plus Jakarta Sans', sans-serif; }
-  .body {
-    overflow-x: hidden; }
-  /* base pagina*/
-  .logo {
-    width: 150px;
-    margin-left: 140px; }
-  .barra {
-    margin-top: 40px;
-    padding-right: 150px; }
-  .footer {
-    margin-top: 300px;
-    margin-left: 550px; }
-  .titulo {
-    margin-top: 40px; }
-  /*fin base pagina*/
-  .calesita {
-    width: 550px; }
-  .textoPresentacion {
-    margin-top: 110px;
-    padding-left: 20px; } }
+/* ================== CONFIGURACIÓN GENERAL ================== */
+html, body {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #f8fafc;
+    color: #0f172a;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
-@media only screen and (max-width: 768px) {
-  .logo {
-    width: 100px;
-    margin-left: 10px; }
-  ul {
-    font-size: 15px; }
-  .titulo {
-    margin-top: 20px;
-    margin-left: 10px; }
-  .barra {
-    margin-top: 40px;
-    padding-right: 0px;
-    margin-left: 10px; }
-  .tituloPag {
-    font-size: 30px; }
-  .calesita {
-    width: 350px;
-    padding-left: 60px; }
-  .textoPresentacion {
-    margin-top: 110px;
-    padding-left: 16px; }
-  .footer {
-    margin-top: 200px;
-    margin-left: 35px;
-    padding-left: 10px; }
-  .html {
-    overflow-x: hidden; } }
+/* ================== LOGO Y HEADER ================== */
+.logo1, .logo3, .logo2 {
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+    padding: 10px;
+}
 
-@media screen and (min-width: 1200px) {
-  /* base pagina*/
-  .logo2 {
-    width: 150px;
-    margin-left: 140px; }
-  .barra2 {
-    margin-top: 40px;
-    padding-right: 150px; }
-  .footer2 {
-    margin-top: 200px;
-    margin-left: 550px; }
-  .titulo2 {
-    margin-top: 40px; }
-  /*fin base pagina*/
-  .textoIntroduccion {
+.tituloPag {
+    font-size: 1.8rem;
+    font-weight: 600;
     text-align: center;
-    margin-top: 150px; }
-  .fotoDecoracion {
-    width: 550px;
-    margin-left: 550px; }
-  .texto1 {
-    margin-top: 20px; } }
+    margin: 20px 0;
+    color: #0f172a;
+}
 
-@media screen and (min-width: 1200px) {
-  /* base pagina*/
-  .logo1 {
-    width: 150px;
-    margin-left: 140px; }
-  .barra1 {
-    margin-top: 40px;
-    padding-right: 150px; }
-  .footer1 {
-    margin-top: 200px;
-    margin-left: 550px; }
-  .titulo1 {
-    margin-top: 40px; }
-  /*fin base pagina*/
-  .cambioPantalla {
-    width: 440px; }
-  .reparacionMother {
-    width: 450px;
-    margin-left: 180px; }
-  .cambioPiezas {
-    width: 570px; }
-  .teclado {
-    margin-left: 180px;
-    width: 445px; }
-  .Software {
-    width: 280px;
-    margin-left: 150px;
-    margin-bottom: 10px; }
-  .fila {
-    margin-top: 10px; }
-  .oracion {
-    font-size: 35px;
-    font-style: italic;
-    color: darkred; }
-  .consulta {
-    text-align: center;
-    margin-top: 10px; } }
-
-@media only screen and (max-width: 768px) {
-  .logo2 {
-    width: 100px;
-    margin-left: 10px; }
-  ul {
-    font-size: 15px; }
-  .titulo2 {
-    margin-top: 20px;
-    margin-left: 10px; }
-  .barra2 {
-    margin-top: 40px;
-    padding-right: 0px;
-    margin-left: 10px; }
-  .footer2 {
-    margin-top: 200px;
-    margin-left: 35px;
-    padding-left: 10px; }
-  .body {
-    overflow-x: hidden; }
-  .fotoDecoracion {
-    width: 150px;
-    margin-left: 125px; }
-  .textoIntroduccion {
-    font-size: 12px; } }
-
-@media only screen and (max-width: 768px) {
-  /* base pagina*/
-  .logo1 {
-    width: 100px;
-    margin-left: 10px; }
-  .barra1 {
-    margin-top: 40px;
-    padding-right: 0px;
-    margin-left: 10px; }
-  .footer1 {
-    margin-top: 200px;
-    margin-left: 35px; }
-  .titulo1 {
-    margin-top: 20px;
-    margin-left: 10px; }
-  /*fin base pagina*/
-  .cambioPantalla {
-    width: 400px;
-    margin-bottom: 100px;
-    margin-left: 20px; }
-  .reparacionMother {
-    width: 374px;
-    margin-left: 20px; }
-  .cambioPiezas {
-    width: 374px;
-    margin-bottom: 100px;
-    margin-left: 20px; }
-  .teclado {
-    margin-left: 20px;
-    width: 374px; }
-  .Software {
-    width: 280px;
-    margin-left: 70px;
-    margin-bottom: 10px; }
-  .fila {
-    margin-top: 10px; }
-  .oracion {
-    font-size: 35px;
-    font-style: italic;
-    color: darkred; }
-  .consulta {
-    text-align: center;
+.barra1, .barra3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 10px;
-    font-size: 17px; }
-  .tituloBanner {
-    font-size: 29px; } }
+}
 
-@media screen and (min-width: 1200px) {
-  /* base pagina*/
-  .logo3 {
-    width: 150px;
-    margin-left: 140px; }
-  .body {
-    overflow-x: hidden; }
-  .barra3 {
-    margin-top: 40px;
-    padding-right: 150px; }
-  .footer3 {
-    margin-top: 200px;
-    margin-left: 550px; }
-  .titulo3 {
-    margin-top: 40px; }
-  /*fin base pagina*/
-  .card {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 40px; }
-  .principio {
-    margin-top: 50px;
-    padding-left: 50px; }
-  .mapa {
-    margin-left: 500px; } }
+.nav-pills .nav-link {
+    color: #334155;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: 500;
+    margin: 0 5px;
+    border-radius: 0.5rem;
+}
 
-@media only screen and (max-width: 768px) {
-  /* base pagina*/
-  .logo3 {
-    width: 100px;
-    margin-left: 10px; }
-  .conteiner {
-    overflow-x: hidden; }
-  .barra3 {
-    margin-top: 40px;
-    padding-right: 0px;
-    margin-left: 10px; }
-  .footer3 {
-    margin-top: 200px;
-    margin-left: 35px; }
-  .titulo3 {
-    margin-top: 20px;
-    margin-left: 10px; }
-  /*fin base pagina*/
-  .card {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 45px; }
-  .mapa {
-    margin-left: 12px;
-    width: 350px; } }
+.nav-pills .nav-link:hover {
+    background-color: #38bdf8;
+    color: #ffffff;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #0ea5e9;
+    color: #ffffff;
+}
+
+/* ================== TEXTO PRINCIPAL ================== */
+.principio {
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 15px;
+    color: #475569;
+}
+
+.oracion {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #0f172a;
+}
+
+.consulta {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #0ea5e9;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.consulta:hover {
+    text-decoration: underline;
+}
+
+.tituloBanner {
+    text-align: center;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+/* ================== NOSOTROS ================== */
+.textoIntroduccion {
+    font-size: 1.1rem;
+    color: #475569;
+    padding: 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.fotoDecoracion {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* ================== IMÁGENES DE SERVICIOS ================== */
+.cambioPantalla, .reparacionMother, .cambioPiezas, .teclado, .Software {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: transform 0.3s;
+}
+
+.cambioPantalla:hover, .reparacionMother:hover, .cambioPiezas:hover, .teclado:hover, .Software:hover {
+    transform: scale(1.03);
+}
+
+/* ================== JUMBOTRON ================== */
+.jumbotron {
+    background-color: #e2e8f0;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.jumbotron .lead {
+    font-size: 1.1rem;
+    color: #475569;
+}
+
+/* ================== CARDS CONTACTO ================== */
+.card {
+    border: none;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.3s;
+    margin: 15px auto;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #0f172a;
+}
+
+.card-text {
+    color: #475569;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: #0ea5e9;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0284c7;
+}
+
+/* ================== FOOTER ================== */
+.footer1, .footer3, .footer2 {
+    text-align: center;
+    font-size: 1rem;
+    color: #334155;
+    padding: 20px;
+    background-color: #e2e8f0;
+    border-radius: 0.5rem;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+}
+
+/* ================== MAPA ================== */
+.mapa {
+    width: 90%;
+    max-width: 750px;
+    height: auto;
+    border-radius: 0.5rem;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* ================== RESPONSIVE ================== */
+@media (max-width: 768px) {
+    .oracion {
+        font-size: 1.5rem;
+    }
+    .tituloPag {
+        font-size: 1.5rem;
+    }
+}
