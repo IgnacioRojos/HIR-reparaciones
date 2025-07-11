@@ -1,14 +1,46 @@
-#HIR reparaciones
-Este proyecto fue creado para un cliente donde el promocionaba su trabajo,reparaciones de notebooks, y que sus posibles clientes tengan la posibilidad de ver su trabajo.
-Para poder realizar este proyecto se utilizo html, css, sass, AOS y fonts ya que el cliente solicito una pagina estática donde mostraba su informació y trabajo.
-css y sass se usaron para darle un estilo a la página el cliente me pidió que no fuera muy cargada de colores, por lo que use una paleta de colores simples.
-AOS se usó como decoración para las transiciones de los componentes como por ejemplo las fotos o cajas contenedoras de algun texto.
-Por ultimo fonts se utilizó para cambiar la fuente de las letras de la web.
+# 💻 HIR Reparaciones
 
-| Página | Que Contiene Y Que hace |
-| ----------- | ----------- |
-|index|Esta vista es la landing de la pagina, se puede observar un texto con un carrusel al lado donde se explica el origen de la empresa|
-|contacto|En esta pestaña nuestro cliente dejo información como su número de teléfono o whatsapp para que lo puedan contactar ademas de la ubicacion de la empresa|
-|nosotros|Se le explican a la gente que visita esta pestaña un poco mas profundo como surgio la empresa y el objetivo que tiene, es una explicacion como la que tiene el index|
-|servicios|Podemos ver en esta vista los distintos servicios que tiene la empresa con una pequeña descripción de lo que se hace en el proceso de reparación|
+Página estática informativa para **HIR Reparaciones**, emprendimiento especializado en la reparación de **notebooks y PC**.
 
+
+
+## 🚀 Sobre el proyecto
+
+HIR Reparaciones nace con el objetivo de brindar **soluciones rápidas, confiables y accesibles** para tus dispositivos, con atención personalizada y experiencia en el rubro.
+
+En esta landing encontrarás:
+✅ Servicios ofrecidos  
+✅ Información de contacto directa  
+✅ Diseño simple y limpio para que el cliente acceda fácilmente a lo que necesita
+
+## 🛠️ Tecnologías utilizadas
+
+- **HTML5**
+- **CSS3**
+- **JavaScript** (básico para estructura de la página)
+- **Diseño responsive** para visualización en dispositivos móviles.
+
+## 📈 Mejoras futuras
+
+- Implementación de formulario de contacto.
+- Agregar botón de WhatsApp flotante.
+- SEO optimizado con meta tags.
+- Testimonios de clientes.
+
+## 🌐 Deploy
+
+Próximamente online en **Netlify**.
+
+## 📞 Contacto
+
+✉️ **hirreparaciones@gmail.com**  
+
+
+## 🤝 Contribuciones
+
+Si deseas aportar mejoras a este proyecto, ¡son bienvenidas!
+
+---
+
+Desarrollado con ❤️ por **Ignacio Rojos**  
+[🔗 LinkedIn](https://www.linkedin.com/in/ignacio-rojos/) | [🔗 Portfolio](https://eclectic-snickerdoodle-634186.netlify.app/)
