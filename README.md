@@ -29,7 +29,7 @@ En esta landing encontrarás:
 
 ## 🌐 Deploy
 
-Próximamente online en **Netlify**.
+Puedes ver el proyecto ya desplegado (https://timely-pudding-7f745d.netlify.app/)
 
 ## 📞 Contacto
 
