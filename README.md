@@ -29,7 +29,7 @@ En esta landing encontrarás:
 
 ## 🌐 Deploy
 
-Puedes ver el proyecto ya desplegado (https://timely-pudding-7f745d.netlify.app/)
+Puedes ver el proyecto ya desplegado (https://hirreparaciones.netlify.app/)
 
 ## 📞 Contacto
 
@@ -43,4 +43,4 @@ Si deseas aportar mejoras a este proyecto, ¡son bienvenidas!
 ---
 
 Desarrollado con ❤️ por **Ignacio Rojos**  
-[🔗 LinkedIn](https://www.linkedin.com/in/ignacio-rojos/) | [🔗 Portfolio](https://eclectic-snickerdoodle-634186.netlify.app/)
+[🔗 LinkedIn](https://www.linkedin.com/in/ignacio-rojos/) 
